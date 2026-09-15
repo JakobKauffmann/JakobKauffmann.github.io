@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jakob Kauffmann</title>
+  <meta name="description" content="Jakob Kauffmann. Machine learning for speech and audio: audio deepfake detection, self-supervised speech models, and cross-domain generalization. MS Computer Science, San José State University.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-nav">
+    <div class="wrap nav-inner">
+      <a class="nav-name" href="#top">Jakob Kauffmann</a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="wrap intro">
+      <div>
+        <h1>Jakob Kauffmann</h1>
+        <p class="role">Machine learning for speech and audio</p>
+        <p class="bio">I build and evaluate machine learning systems for speech and audio. My master's research at San José State University looked at why audio deepfake detectors break on audio recorded in new conditions, and where inside a self-supervised speech model that problem can be addressed.</p>
+        <p class="bio">I also spent summer 2025 as a software engineering intern on Apple's iOS Accessibility team. I am looking for machine learning engineering and research engineering roles.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:jakobkauffmann@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            jakobkauffmann@gmail.com
+          </a>
+          <a class="btn" href="https://github.com/JakobKauffmann">
+            <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+            GitHub
+          </a>
+          <a class="btn" href="https://www.linkedin.com/in/jakobkauffmann">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+            LinkedIn
+          </a>
+          <a class="btn" href="https://scholar.google.com/citations?user=LZN0dxQAAAAJ">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+            Google Scholar
+          </a>
+        </div>
+      </div>
+      <dl class="facts">
+        <div><dt>Focus</dt><dd>Audio deepfake detection, self-supervised speech models, domain generalization</dd></div>
+        <div><dt>Education</dt><dd>MS Computer Science, San José State University, 2026</dd></div>
+        <div><dt>Experience</dt><dd>Software Engineering Intern, Apple, 2025</dd></div>
+        <div><dt>Location</dt><dd>Santa Clara, CA</dd></div>
+        <div><dt>Open to</dt><dd>ML engineering and research engineering roles</dd></div>
+      </dl>
+    </section>
+
+    <section class="wrap section" id="research">
+      <div class="section-head">
+        <h2>Research</h2>
+        <p class="section-note">My master's thesis and the papers that came out of it. The full thesis is under embargo until May 2027, so this summary sticks to the public abstract.</p>
+      </div>
+
+      <article class="thesis">
+        <p class="eyebrow">Master's thesis · San José State University · 2026</p>
+        <h3>Targeted Bottlenecking of Self-Supervised Speech Layers for Generalizable Audio Deepfake Detection</h3>
+        <p class="thesis-meta">Advisor: Dr. Faranak Abri · Committee: Dr. Amith Kamath Belman and Dr. Saptarshi Sengupta</p>
+        <div class="thesis-status">
+          <span class="pill pill-green">Defended May 2026</span>
+          <span class="pill pill-amber">Full text under embargo until May 2027</span>
+          <a class="link-btn" href="https://doi.org/10.31979/etd.kmc6-t6vf">Abstract on ScholarWorks (DOI)</a>
+        </div>
+
+        <div class="explain-grid">
+          <div class="explain">
+            <h4>The problem</h4>
+            <p>A deepfake detector trained on one collection of recordings often fails on audio that was captured differently: a different recording channel, a compressed audio codec, or a voice synthesizer it has not seen before.</p>
+          </div>
+          <div class="explain">
+            <h4>The question</h4>
+            <p>Self-supervised speech models process audio through a stack of layers. The thesis asks where in that stack the unwanted channel and codec information is concentrated, and whether removing it there helps a detector carry over to new data.</p>
+          </div>
+          <div class="explain">
+            <h4>The approach</h4>
+            <p>GLADA combines the model's layers in groups. Each group gets a variational information bottleneck, which limits how much detail passes through, and an adversarial domain discriminator, which pushes the features to look the same across datasets. A CKA similarity penalty keeps the groups from learning redundant features.</p>
+          </div>
+          <div class="explain">
+            <h4>What it found</h4>
+            <p>Across multiple training seeds and five test sets (In-the-Wild, ASVspoof 2021 LA and DF, WaveFake, and CodecFake+), using the bottleneck only on the lowest layer group beat both a single bottleneck after pooling and a bottleneck on every group, on every secondary out-of-domain test set. Linear probes on each group and CKA comparisons with handcrafted acoustic measurements both trace codec and channel information to that lowest group, which supports putting the bottleneck there.</p>
+          </div>
+        </div>
+
+        <ul class="tags keywords" aria-label="Keywords">
+          <li>Audio deepfake detection</li>
+          <li>Self-supervised speech models</li>
+          <li>Variational information bottleneck</li>
+          <li>Adversarial domain adaptation</li>
+          <li>Cross-domain generalization</li>
+        </ul>
+      </article>
+
+      <h3 class="subhead" id="publications">Publications from this research</h3>
+      <ol class="pubs">
+        <li class="pub">
+          <div class="pub-side">
+            <span class="pub-venue">IEEE ICTAI 2026</span>
+            <span class="pill pill-green">Accepted</span>
+          </div>
+          <div>
+            <p class="pub-title">Per-Layer-Group Bottlenecking for Cross-Domain Audio Deepfake Detection</p>
+            <p class="pub-authors"><strong>Jakob Kauffmann</strong>, Faranak Abri, Jade Webb</p>
+            <p class="pub-detail">Conference paper on the thesis's central question: where to place the information bottleneck across groups of self-supervised speech layers.</p>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub-side">
+            <span class="pub-venue">Springer, 2027</span>
+            <span class="pill pill-blue">Forthcoming</span>
+          </div>
+          <div>
+            <p class="pub-title">Speech Deepfake Detection: A Survey of Methods, Benchmarks, and Generalization Challenges</p>
+            <p class="pub-authors"><strong>Jakob Kauffmann</strong>, Faranak Abri, Jade Webb</p>
+            <p class="pub-detail">Book chapter in <cite>Artificial Intelligence for Cyber Defense in Emerging Threats</cite>, edited by Mark Stamp. A survey of detection methods, evaluation benchmarks, and why detectors struggle to generalize.</p>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub-side">
+            <span class="pub-venue">IEEE COMPSAC 2026</span>
+            <span class="pill pill-gray">Accepted, withdrawn</span>
+          </div>
+          <div>
+            <p class="pub-title">Where the Domain Hides: Per-Layer-Group Variational Information Bottleneck for Cross-Domain Audio Deepfake Detection</p>
+            <p class="pub-authors"><strong>Jakob Kauffmann</strong>, Faranak Abri, Jade Webb</p>
+            <p class="pub-detail">An earlier version of the per-layer-group bottleneck paper. It was accepted and then withdrawn.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="wrap section" id="projects">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="section-note">Course projects with code and full reports. Team projects credit every teammate.</p>
+      </div>
+      <div class="projects">
+        <article class="project">
+          <a class="project-media" href="https://github.com/JakobKauffmann/iot-intrusion-detection">
+            <img class="fit" src="assets/iot-accuracy.png" alt="Bar chart of category accuracy for five models on the CICIoT2023 holdout and on the CICIoMT2024 cross-dataset sample" loading="lazy">
+          </a>
+          <div class="project-body">
+            <div class="project-meta"><span>CS 258 · Spring 2026</span><span>Team of 2</span></div>
+            <h3>IoT Intrusion Detection</h3>
+            <p>Multi-class intrusion detection on CICIoT2023 network traffic, comparing seven models from decision trees to TabNet with tuned hyperparameters and a held-out demo set. Tree ensembles lead in distribution, but on the CICIoMT2024 dataset the compact MLP and KNN transfer better.</p>
+            <p class="team">With Zhuoqun Wei</p>
+            <ul class="tags"><li>XGBoost</li><li>Random Forest</li><li>TabNet</li><li>Optuna</li><li>Streamlit</li></ul>
+            <div class="project-links">
+              <a class="link-btn" href="https://github.com/JakobKauffmann/iot-intrusion-detection">Code</a>
+              <a class="link-btn" href="https://github.com/JakobKauffmann/iot-intrusion-detection/blob/main/docs/report.pdf">Report (PDF)</a>
+              <a class="link-btn" href="https://github.com/JakobKauffmann/streamlit">Demo app</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <a class="project-media" href="https://github.com/JakobKauffmann/Noise-Robust-Voice-Auth">
+            <img class="fit" src="assets/voice-auth-roc.png" alt="ROC curves with the equal error rate marked for the clean and noisy test pairs" loading="lazy">
+          </a>
+          <div class="project-body">
+            <div class="project-meta"><span>CS 286 · Spring 2025</span><span>Solo project</span></div>
+            <h3>Noise-Robust Voice Authentication</h3>
+            <p>Speaker verification that fuses a SincNet embedding of the raw waveform with a MobileNetV2 embedding of the mel spectrogram. Trained with MUSAN noise augmentation and evaluated on clean, noisy, and noise-filtered VoxCeleb1 pairs. The report includes a literature review of noise-robust speaker verification.</p>
+            <ul class="tags"><li>PyTorch</li><li>SincNet</li><li>MobileNetV2</li><li>MUSAN</li><li>VoxCeleb1</li></ul>
+            <div class="project-links">
+              <a class="link-btn" href="https://github.com/JakobKauffmann/Noise-Robust-Voice-Auth">Code</a>
+              <a class="link-btn" href="https://github.com/JakobKauffmann/Noise-Robust-Voice-Auth/blob/main/docs/report.pdf">Report (PDF)</a>
+              <a class="link-btn" href="https://github.com/JakobKauffmann/Noise-Robust-Voice-Auth/blob/main/docs/slides.pdf">Slides (PDF)</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <a class="project-media" href="https://github.com/JakobKauffmann/ai-text-detection">
+            <img class="fit" src="assets/text-detection-pipeline.png" alt="Pipeline diagram: USE, InferSent, and SBERT embeddings reduced with PCA, then classified by AdaBoost, an MLP, or a CNN on vector-to-grayscale images" loading="lazy">
+          </a>
+          <div class="project-body">
+            <div class="project-meta"><span>CS 271 · Fall 2024</span><span>Team of 2</span></div>
+            <h3>AI-Generated Text Detection</h3>
+            <p>Separates human-written text from GPT and Llama output by embedding whole passages with SBERT, InferSent, or the Universal Sentence Encoder, then comparing an MLP, AdaBoost, and a CNN that reads each embedding as a grayscale image.</p>
+            <p class="team">With Christofer Berruz</p>
+            <ul class="tags"><li>SBERT</li><li>InferSent</li><li>USE</li><li>PCA</li><li>CNN</li><li>AdaBoost</li></ul>
+            <div class="project-links">
+              <a class="link-btn" href="https://github.com/JakobKauffmann/ai-text-detection">Code</a>
+              <a class="link-btn" href="https://github.com/JakobKauffmann/ai-text-detection/blob/main/docs/report.pdf">Report (PDF)</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <a class="project-media" href="https://github.com/JakobKauffmann/news-bias-sentiment-analyzer">
+            <img src="assets/news-bias-app.jpg" alt="Screenshot of the analysis page showing political bias, sentiment, and credibility panels above a generated summary" loading="lazy">
+          </a>
+          <div class="project-body">
+            <div class="project-meta"><span>CS 273 · Spring 2025</span><span>Team of 4</span></div>
+            <h3>Political Bias and Sentiment Analysis</h3>
+            <p>A Flask web app that analyzes a pasted article, a URL, or a search topic. Transformer classifiers label political bias and sentiment, and Llama 3 writes a summary, key findings, and bias indicators.</p>
+            <p class="team">With Vibha Bhavikatti, Rudraksh Naik, and Michael Vong</p>
+            <ul class="tags"><li>Flask</li><li>BERT</li><li>RoBERTa</li><li>Llama 3</li></ul>
+            <div class="project-links">
+              <a class="link-btn" href="https://github.com/JakobKauffmann/news-bias-sentiment-analyzer">Code</a>
+              <a class="link-btn" href="https://github.com/JakobKauffmann/news-bias-sentiment-analyzer/blob/main/docs/report.pdf">Report (PDF)</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap section" id="experience">
+      <div class="section-head">
+        <h2>Experience</h2>
+      </div>
+      <article class="job">
+        <div class="job-head">
+          <div>
+            <h3>Software Engineering Intern</h3>
+            <p class="job-org">Apple · iOS Accessibility team · Cupertino, CA</p>
+          </div>
+          <span class="job-date">May–Aug 2025</span>
+        </div>
+        <ul class="job-list">
+          <li>Ported a hearing accessibility feature from iOS to watchOS in Swift and Objective-C under the feature owner's direction, starting with the audio playback daemon.</li>
+          <li>Built a watch-native Settings interface and the backend path that delivers the feature's audio assets from the server, reaching parity with iOS across Settings, Control Center, Shortcuts, and Widgets. Each surface had its own UI and backend integration. The work merged to main before the internship ended.</li>
+          <li>Designed, largely on my own, a device-to-device state synchronization layer that hands off the accessibility feature's audio across wearables and wireless audio devices, so people can keep using the feature without interruption when they switch devices. It keeps the playback source, the position in the audio sequence, and the timestamp through a manual transfer or a device disconnect, and sends a high-priority resync on reconnect because a disconnected device can change state unseen. Built on an internal nearby-device continuity controller, it merged to the main codebase for testing and future release.</li>
+          <li>Demoed a working build to the 50+ person Accessibility team.</li>
+        </ul>
+        <ul class="tags"><li>Swift</li><li>Objective-C</li><li>watchOS</li><li>iOS</li></ul>
+      </article>
+    </section>
+
+    <section class="wrap section" id="education">
+      <div class="section-head">
+        <h2>Education</h2>
+      </div>
+      <div class="edu-grid">
+        <article class="edu">
+          <div class="row-head"><h3>M.S. Computer Science</h3><span class="row-date">2026</span></div>
+          <p class="row-org">San José State University</p>
+          <p class="row-text">Advisor: Dr. Faranak Abri. Coursework in machine learning, artificial intelligence, natural language processing, and biometric security with AI.</p>
+        </article>
+        <article class="edu">
+          <div class="row-head"><h3>B.A. Computer Science</h3><span class="row-date">2023</span></div>
+          <p class="row-org">University of Virginia</p>
+          <p class="row-text">Minor in Data Science. Echols Scholar.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>© 2026 Jakob Kauffmann</span>
+      <span>Updated September 2026</span>
+    </div>
+  </footer>
+</body>
+</html>
